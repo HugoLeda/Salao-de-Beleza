@@ -115,7 +115,7 @@ begin
 
       Mensagem.Left := Mensagem.Left - 15;
       Mensagem.Top := Mensagem.Top + 25;
-      Mensagem.Caption := 'Senha alterada com suceso!';
+      Mensagem.Caption := 'Senha alterada com sucesso!';
       Mensagem.Visible := True;
       ButtonConfirmar.Enabled := False;
       Button_Cancelar.Caption := 'Voltar';

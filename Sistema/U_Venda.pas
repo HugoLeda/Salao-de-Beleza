@@ -367,6 +367,9 @@ begin
 
   ADOQueryItensVenda.Last;
 
+  LabelQTD.Caption := IntToStr(ADOQueryItensVenda.RecordCount);
+  ADOQueryItensVenda.Last;
+  LabelValor.Caption := 'R$ ' + FormatFloat('###0.00', Abs(ADOQueryValorVALOR.AsFloat));
 end;
 
 procedure TForm_Venda.Button5Click(Sender: TObject);

@@ -3045,14 +3045,15 @@ object Form_Cadastro_Usu: TForm_Cadastro_Usu
         DataType = ftString
         NumericScale = 255
         Precision = 255
-        Size = 11
+        Size = 14
         Value = '0'
       end>
     SQL.Strings = (
       'select           *'
       'from             TB_FUNCIONARIOS'
       'where          NOME like :NOME'
-      '                    or CPF = :CPF')
+      '                    or CPF = :CPF and'
+      #9'    DISPONIVEL = 1')
     Left = 584
     Top = 400
     object ADOQueryFuncionariosNome: TStringField

@@ -442,6 +442,7 @@ begin
   CampoFiltro := DBGrid1.Columns[1].FieldName;
   GroupBox1.Visible := False;
   SearchBox1.SetFocus;
+  DBGrid1.Enabled := True;
 end;
 
 procedure TFormBaixaCarne.SearchBox1Change(Sender: TObject);

@@ -480,14 +480,14 @@ begin
   ButtonEditar.Enabled := True;
   ButtonExcluir.Enabled := True;
   ButtonNovo.Enabled := True;
+  ButtonSelecionar.Visible := False;
+  GroupBox1.Visible := True;
 
   ButtonNovo.Visible := True;
-  ButtonEditar.Visible := True;
-  ButtonCancelar.Visible := True;
-  ButtonSalvar.Visible := True;
   ButtonExcluir.Visible := True;
-  ButtonSelecionar.Visible := False;
-  GroupBox1.Visible := False;
+  ButtonEditar.Visible := True;
+  ButtonSalvar.Visible := True;
+  ButtonCancelar.Visible := True;
 
   EditCodigo.Text := '';
   EditNome.Text := '';
@@ -510,11 +510,13 @@ begin
 
   if Form_Login.ADOQueryVerificaUsuSUPERUSU.AsBoolean = False then
     begin
-      ButtonNovo.Visible := False;
-      ButtonEditar.Visible := False;
-      ButtonCancelar.Visible := False;
-      ButtonSalvar.Visible := False;
-      ButtonExcluir.Visible := False;
+      ButtonSalvar.Enabled := False;
+      ButtonCancelar.Enabled := False;
+      ButtonEditar.Enabled := True;
+      ButtonExcluir.Enabled := True;
+      ButtonNovo.Enabled := True;
+      ButtonSelecionar.Visible := False;
+      GroupBox1.Visible := True;
     end;
 
   if Form_Venda.SelecionarServ = True then

@@ -12432,6 +12432,7 @@ object Form_Principal: TForm_Principal
     Top = 360
   end
   object ADOQueryEntradasCaixa: TADOQuery
+    Active = True
     Connection = ADOConnection1
     CursorType = ctStatic
     Parameters = <
@@ -12497,6 +12498,7 @@ object Form_Principal: TForm_Principal
     end
   end
   object ADOQuerySaidasCaixa: TADOQuery
+    Active = True
     Connection = ADOConnection1
     CursorType = ctStatic
     Parameters = <
@@ -12658,7 +12660,7 @@ object Form_Principal: TForm_Principal
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 44133.328037476900000000
-    ReportOptions.LastChange = 44147.962109768520000000
+    ReportOptions.LastChange = 44167.394749131940000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
@@ -15071,7 +15073,7 @@ object Form_Principal: TForm_Principal
           Align = baWidth
           AllowVectorExport = True
           Left = 94.488250000000000000
-          Top = 41.015770000000000000
+          Top = 42.015770000000000000
           Width = 94.488250000000000000
           Height = 18.897650000000000000
           Font.Charset = DEFAULT_CHARSET

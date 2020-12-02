@@ -435,14 +435,17 @@ begin
   ButtonFechar.Enabled := True;
   ButtonExcluir.Enabled := True;
 
-  ButtonCancelar.Visible := True;
-  ButtonSalvar.Visible := True;
-  ButtonEditar.Visible := True;
-  ButtonExcluir.Visible := True;
-  ButtonNovo.Visible := True;
   SpeedButton1.Visible := True;
+
+  ButtonNovo.Visible := True;
+  ButtonEditar.Visible:= True;
+  ButtonSalvar.Visible := True;
+  ButtonCancelar.Visible := True;
+  ButtonFechar.Visible := True;
+  ButtonExcluir.Visible := True;
+
   ButtonSelecionar.Visible := False;
-  GroupBox1.Visible := False;
+  GroupBox1.Visible := True;
 
   ButtonImg.Enabled := False;
   ButtonImg.Visible := False;

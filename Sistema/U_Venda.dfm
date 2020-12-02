@@ -1768,7 +1768,9 @@ object Form_Venda: TForm_Venda
     CursorType = ctStatic
     Parameters = <>
     SQL.Strings = (
-      'SELECT CODIGO, NOME FROM TB_FUNCIONARIOS')
+      'SELECT CODIGO, NOME '
+      'FROM TB_FUNCIONARIOS'
+      'where'#9'DISPONIVEL = 1')
     Left = 112
     Top = 24
     object ADOQueryFuncionarioCODIGO: TAutoIncField
@@ -1785,7 +1787,9 @@ object Form_Venda: TForm_Venda
     CursorType = ctStatic
     Parameters = <>
     SQL.Strings = (
-      'SELECT CODIGO, NOME FROM TB_CLIENTES')
+      'SELECT CODIGO, NOME'
+      'FROM TB_CLIENTES'
+      'where'#9'DISPONIVEL = 1')
     Left = 112
     Top = 136
     object ADOQueryClienteCODIGO: TAutoIncField
@@ -1955,7 +1959,10 @@ object Form_Venda: TForm_Venda
     CursorType = ctStatic
     Parameters = <>
     SQL.Strings = (
-      'SELECT * FROM TB_SERVICOS')
+      'SELECT'#9'*'
+      'FROM'#9'TB_SERVICOS'
+      'where'#9'DISPONIVEL = 1'
+      '')
     Left = 88
     Top = 336
     object ADOQueryServicoCODIGO: TAutoIncField
@@ -2009,7 +2016,8 @@ object Form_Venda: TForm_Venda
     SQL.Strings = (
       'SELECT  *'
       'FROM    TB_PRODUTOS'
-      'WHERE  CODIGO_DE_BARRAS = :CODIGO_DE_BARRAS and DISPONIVEL = 1')
+      'WHERE  CODIGO_DE_BARRAS = :CODIGO_DE_BARRAS and '
+      #9'DISPONIVEL = 1')
     Left = 80
     Top = 224
     object ADOQueryProdutoCODIGO_DE_BARRAS: TLargeintField

@@ -158,7 +158,16 @@ begin
       DiaVenc := 28;
     end;
 
-  MesVenc := MesVenc + 1;
+  if MesVenc < 12 then
+    begin
+      MesVenc := MesVenc + 1;
+    end
+  else
+    begin
+      MesVenc := 01;
+      AnoVenc := AnoVenc + 1;
+    end;
+
   i := 1;
   for i := 1 to StrToInt(EditParcelas.Text) do
     begin

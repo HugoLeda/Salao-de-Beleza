@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<TfrxReport Version="6.2.1" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="167935" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="44133,3280374769" ReportOptions.Description.Text="" ReportOptions.LastChange="44147,9621097685" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end.">
+<TfrxReport Version="6.2.1" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="167935" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="44133,3280374769" ReportOptions.Description.Text="" ReportOptions.LastChange="44167,3947491319" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end.">
   <Datasets>
     <item DataSet="DBCaixa" DataSetName="DBCaixa"/>
     <item DataSet="DBEntradas" DataSetName="DBEntradas"/>
@@ -17,7 +17,7 @@
     <TfrxHeader Name="Header1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="60,47248" Left="0" Top="325,03958" Width="718,1107">
       <TfrxMemoView Name="Memo1" AllowVectorExport="True" Left="0" Top="11,33859" Width="94,48825" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="Saídas"/>
       <TfrxMemoView Name="Memo5" Align="baWidth" AllowVectorExport="True" Left="0" Top="41,7953" Width="94,48825" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" Fill.BackColor="12631532" ParentFont="False" Text="Data"/>
-      <TfrxMemoView Name="Memo6" Align="baWidth" AllowVectorExport="True" Left="94,48825" Top="41,01577" Width="94,48825" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" Fill.BackColor="12631532" ParentFont="False" Text="Hora"/>
+      <TfrxMemoView Name="Memo6" Align="baWidth" AllowVectorExport="True" Left="94,48825" Top="42,01577" Width="94,48825" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" Fill.BackColor="12631532" ParentFont="False" Text="Hora"/>
       <TfrxMemoView Name="Memo7" Align="baWidth" AllowVectorExport="True" Left="188,9765" Top="41,57483" Width="120,94496" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" Fill.BackColor="12631532" ParentFont="False" Text="Valor"/>
       <TfrxMemoView Name="Memo8" Align="baWidth" AllowVectorExport="True" Left="309,92146" Top="41,7953" Width="408,18924" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" Fill.BackColor="12631532" ParentFont="False" Text="Descrição"/>
     </TfrxHeader>

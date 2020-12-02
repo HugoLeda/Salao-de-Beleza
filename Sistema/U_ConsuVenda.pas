@@ -140,6 +140,7 @@ begin
   GroupBoxItens.Visible := False;
   SearchBox1.Enabled := True;
   SearchBox1.SetFocus;
+  DBGrid1.Enabled := True;
 end;
 
 procedure TForm_Consu_Venda.SearchBox1Change(Sender: TObject);
